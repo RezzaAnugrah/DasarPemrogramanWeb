@@ -1,0 +1,12 @@
+index
+judul
+teks
+list
+list2
+frame
+    framekanan
+    framekiri
+menu
+menu2
+menu3
+menu4
