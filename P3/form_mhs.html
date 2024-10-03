@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+
+    <body>
+        <form>
+
+            Isilah Form Mahasiswa di Bawah Ini : 
+            <hr>
+            
+            Nama Lengkap : 
+            <input type="text" name="txtNama" maxlength="30" size="30"> <br><br>
+            
+            No HP : 
+            <input type="text" name="txtNoHP" maxlength="11" size="20"> <br><br>
+            
+            Alamat Rumah : 
+            <input type="text" name="txtAlamatRumah" maxlength="50" size="150"> <br><br>
+            
+            <div>
+                Alamat Kantor : 
+                <textarea name="txtAlamatKantor" maxlength="150" rows="5" cols="50" row></textarea><br><br>
+            </div>
+            <!-- <input type="text" name="txtAlamatKantor" maxlength="50" size="150"> <br><br> -->
+             
+            Kuliah : 
+            <select name="matakuliah">
+                <option value="SDA">Struktur Data dan Algoritma</option>
+                <option value="PKS">Pengantar Keamanan Siber</option>
+                <option selected value="DPW">Dasar Pemrograman Web</option>
+            </select> <br><br>
+
+            Olahraga :
+            <input type="checkbox" name="hobby" value="hiking">Hiking
+            <input type="checkbox" name="hobby" value="basket">Basket
+            <input type="checkbox" name="hobby" value="swim">Swimming
+            <input type="checkbox" name="hobby" value="soccer">Soccer
+            <input type="checkbox" name="hobby" value="yoga">Yoga
+            <input type="checkbox" name="hobby" value="run">Running
+            <br><br>
+
+
+            Jenis Kelamin :
+            <input type="radio" name="jk" value="l">Laki-Laki
+            <input type="radio" name="jk" value="p">Prempuan
+            
+            <hr>
+
+            <input type="button" value="Kirim">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
