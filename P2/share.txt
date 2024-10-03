@@ -1,0 +1,20 @@
+1. penggunakan alt + tab. -> untuk mempercepat
+2. jika menggunakan Go Live  tidak perlu refresh.
+3. jika tidak menggunakan Go Live harus refresh.
+
+
+
+
+## Menu
+- Go Home
+- Go About
+- Go Contact
+
+## Link
+- website
+- whatsapp
+    whatsapp://send?phone=6281250470845&text=Halo kak, Saya mau pesan buku, Mohon dibantu ya.
+- alt pada image -> untuk menampilkan Text jika gambar tidak muncul.
+- align -> tidak muncul karena sudah tidak disupport lagi, sekarang support di html5
+
+## 

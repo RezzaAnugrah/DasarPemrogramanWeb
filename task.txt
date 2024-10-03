@@ -10,3 +10,11 @@ menu
 menu2
 menu3
 menu4
+
+
+
+
+<!-- whatsapp://send?phone=6281250470845&text=Halo kak, Saya mau pesan buku, Mohon dibantu ya -->
+<a href="whatsapp://send?phone=6281250470845&text=Halo kak, Saya mau pesan buku, Mohon dibantu ya.">
+    <img src="wa.gif"> <br>
+</a>
