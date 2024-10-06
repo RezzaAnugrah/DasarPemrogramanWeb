@@ -1,0 +1,19 @@
+## Install Go Live
+- Pilih extentions
+- Ketik Live Server
+- Install 
+- Restart jika perlu
+
+## How to use Go Live
+- Klik Go Live
+
+
+## Setting Default
+- Code
+- Setting -> Setting
+- Live Server
+    -> Live Server Config
+        -> Custom Browser
+            -> Chrome
+
+
