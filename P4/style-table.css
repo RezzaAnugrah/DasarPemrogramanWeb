@@ -1,0 +1,36 @@
+/* Atur gaya untuk keseluruhan tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Atur gaya untuk header tabel */
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Tambahkan warna latar belakang untuk header */
+th {
+    background-color: #0cef00;
+    color: white;
+}
+
+/* Atur warna zebra-stripe untuk baris tabel */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Tambahkan efek hover pada baris */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Tambahkan gaya pada teks di dalam tabel */
+td {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
