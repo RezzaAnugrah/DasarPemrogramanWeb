@@ -1,0 +1,21 @@
+## HTML5, Form Validation
+
+## HTML5
+- HTML5 Form Validation
+- Input
+- Type = Email
+- Pattern
+
+* Perubahan :
+- Ganti row menjadi rows  / Hapus row 
+- Ganti button menjadi submit
+
+
+## Penjelasan tentang format
+- tanggal  
+    - 2024-10-15  (yyyy-MM-dd)
+    - 15-10-2024  (dd-MM-yyyy) 
+    - 15-Oct-2024  (dd-MMM-yyyy)
+
+## 
+- Video
