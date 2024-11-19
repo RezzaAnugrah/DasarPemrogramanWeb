@@ -1,0 +1,19 @@
+.form_head{
+    align-items: center;
+}
+form{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    padding-left:100px ;
+    padding-right:100px ;
+    padding-bottom: 10px;
+}
+h4{
+    padding-left: 190px;
+    
+}
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="form_head">
+    <form>
+        <div>
+            <h4>Form Data Karyawan</h4>
+            <hr>
+        </div>
+    <div>
+        <div class="form">
+        <div>
+            NIK
+            <input type="text" name="txtNIK"  required>
+        </div>
+
+        <div>
+            Nama    
+            <input type="text" name="txtNama"  required class="input_item">
+        </div>
+
+        <div>
+            No KTP 
+            <input type="text" name="txtKTP"  required>
+        </div>
+        <div>
+            Email    
+            <input type="email" name="txtEmail"  required>
+        </div>
+
+        <div>
+            Alamat Rumah 
+            <textarea name="txtAlamatRumah" maxlength="150" rows="3" cols="50" required></textarea>
+        </div>
+        <div>
+            Jenis Kelamin 
+            <input type="radio" name="jk" value="laki-laki" required>Laki-Laki
+            <input type="radio" name="jk" value="Perempuan">Perempuan
+        </div>
+        <div>
+            Gol Darah 
+            <input type="checkbox" name="GolDarah" value="A">A
+            <input type="checkbox" name="GolDarah" value="B">B
+            <input type="checkbox" name="GolDarah" value="AB">AB
+            <input type="checkbox" name="GolDarah" value="O">O
+        </div>
+
+        <div>
+            Agama 
+            <select name="Agama" required>
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katholik">Katholik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+            </select>
+        </div>
+        </div>
+    </div>
+        <div class="button.RS">
+            <hr>
+            <input type="reset" value="Cancel">
+            <input type="submit" value="Send">
+            
+        </div>
+    </form>
+    </div>
+</body>
+</html>

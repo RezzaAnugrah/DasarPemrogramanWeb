@@ -1,0 +1,14 @@
+
+h3{
+    color: aqua;
+    font-style: italic;
+    font-family: Impact;
+    font-size: large;
+}
+
+h4,h5,h6{
+    color: yellow;
+    font-style: italic;
+    font-family: Impact;
+    font-size: large;
+}

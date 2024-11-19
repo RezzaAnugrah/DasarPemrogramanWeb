@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Karyawan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h3>Form Data Karyawan</h3>
+        <hr>
+        <div class="form-container">
+            <div class="form-group">
+                <label for="nik">NIK</label>
+                <input type="text" name="nik" id="nik" maxlength="50" required>
+            </div>
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" name="nama" id="nama" maxlength="50" required>
+            </div>
+            <div class="form-group">
+                <label for="noKTP">No KTP</label>
+                <input type="text" name="noKTP" id="noKTP" maxlength="50" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" maxlength="50" required>
+            </div>
+            <div class="form-group">
+                <label for="alamatRumah">Alamat Rumah</label>
+                <input type="text" name="alamatRumah" id="alamatRumah" maxlength="255" required>
+            </div>
+            <div class="form-group">
+                <label>Jenis Kelamin</label>
+                <div class="form-options">
+                    <input type="radio" name="jk" value="l">Laki-Laki
+                    <input type="radio" name="jk" value="p">Perempuan
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Golongan Darah</label>
+                <div class="form-options">
+                    <input type="checkbox" name="gd" value="a">A
+                    <input type="checkbox" name="gd" value="b">B
+                    <input type="checkbox" name="gd" value="ab">AB
+                    <input type="checkbox" name="gd" value="o">O
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="agama">Agama</label>
+                <select name="Agama" id="agama" required>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katholik">Katholik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="reset" value="Cancel">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

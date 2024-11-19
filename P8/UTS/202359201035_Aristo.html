@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Karyawan</title>
+</head>
+<body>
+
+    <h2>Form Data Karyawan</h2>
+    <form>
+        <label for="nik">NIK</label><br>
+        <input type="text" id="nik" name="nik" style="width: 50%;"><br><br>
+
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" name="nama" style="width: 50%;"><br><br>
+
+        <label for="ktp">No KTP</label><br>
+        <input type="text" id="ktp" name="ktp" style="width: 50%;"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" style="width: 50%;"><br><br>
+
+        <label for="alamat">Alamat Rumah</label><br>
+        <textarea id="alamat" name="alamat" rows="4" style="width: 50%;"></textarea><br><br>
+
+        <label>Jenis Kelamin</label><br>
+        <input type="radio" id="laki" name="jenis_kelamin" value="Laki-Laki">
+        <label for="laki">Laki-Laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <label>Golongan Darah</label><br>
+        <input type="checkbox" id="a" name="gol_darah" value="A">
+        <label for="a">A</label>
+        <input type="checkbox" id="b" name="gol_darah" value="B">
+        <label for="b">B</label>
+        <input type="checkbox" id="ab" name="gol_darah" value="AB">
+        <label for="ab">AB</label>
+        <input type="checkbox" id="o" name="gol_darah" value="O">
+        <label for="o">O</label><br><br>
+
+        <label for="agama">Agama</label><br>
+        <select id="agama" name="agama" style="width: 50%;">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katholik">Katholik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+        </select><br><br>
+
+        <button type="button" onclick="alert('Form Dibatalkan')">Cancel</button>
+        <button type="submit">Send</button>
+    </form>
+
+</body>
+</html>

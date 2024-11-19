@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Karyawan</title>
+    <link rel="stylesheet" href="202359201001_Vera.css">
+</head>
+<body>
+    <body>
+        <form>
+            <div class="line">
+                <h4>Form Data Karyawan</h4><hr>
+            <div>
+                NIK
+                <input type="text" name="txtNIK" required>
+            </div>
+    
+            <div>
+                Nama
+                <input type="text" name="txtNama" required pattern="\62?(\d+)+|\(\d+\)" title="Gunakan format +62 di depan nomor hp">
+            </div>
+            
+            <div>
+                No KTP
+                <input type="text" name="txtKTP" required>
+            </div>
+
+            <div >
+                Email :
+                <input type="email" name="txtEmail" required>
+            </div>
+
+            <div>
+                Alamat Rumah :
+                <textarea name="txtAlamatRumah" required></textarea>
+            </div>
+    
+            <div>
+                Jenis Kelamin :
+                <input type="radio" name="jk" value="l" required>Laki-Laki
+                <input type="radio" name="jk" value="p">Perempuan
+            </div>
+    
+            <div>
+                Gol Darah
+                <input type="checkbox" name="GolDarah" value="A">A
+                <input type="checkbox" name="GolDarah" value="B">B
+                <input type="checkbox" name="GolDarah" value="AB">AB
+                <input type="checkbox" name="GolDarah" value="O">O
+            </div>
+
+            <div>
+                Agama
+                <select name="Agama" required>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katholik">Katholik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                </select>
+            </div>
+            <div>
+                <hr>
+                <input type="reset" value="Cancel">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+</body>
+</html>

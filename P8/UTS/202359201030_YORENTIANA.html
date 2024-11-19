@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Form Data Karyawan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+            margin: 0;
+        }
+        .form-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .radio-group, .checkbox-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 5px;
+        }
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .actions button {
+            padding: 10px 20px;
+            border: none;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Form Data Karyawan</h2>
+    <form>
+        <label for="nik">NIK</label>
+        <input type="text" id="nik" name="nik" required>
+
+        <label for="name">Nama</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="ktp">No KTP</label>
+        <input type="text" id="ktp" name="ktp" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="address">Alamat Rumah</label>
+        <textarea id="address" name="address" rows="2" required></textarea>
+
+        <label>Jenis Kelamin</label>
+        <div class="radio-group">
+            <label><input type="radio" name="gender" value="Laki-Laki" required> Laki-Laki</label>
+            <label><input type="radio" name="gender" value="Perempuan" required> Perempuan</label>
+        </div>
+
+        <label>Gol. Darah</label>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="gol_darah" value="A" required> A</label>
+            <label><input type="checkbox" name="gol_darah" value="B" required> B</label>
+            <label><input type="checkbox" name="gol_darah" value="AB" required> AB</label>
+            <label><input type="checkbox" name="gol_darah" value="O" required> O</label>
+        </div>
+
+        <label for="agama">Agama</label>
+        <select id="agama" name="agama" required>
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katholik">Katholik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+        </select>
+
+        <div class="actions">
+            <button type="button" class="Cancel">Cancel</button>
+            <button type="submit" class="submit">Kirim</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

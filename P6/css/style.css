@@ -1,0 +1,19 @@
+@import url(style2.css);
+
+p {
+    color:red;
+    font-size: small;
+    font-family: Verdana; 
+}
+
+h1{
+    color: blue;
+    font-style: italic;
+    font-family: Verdana;
+}
+
+h2{
+    color: aqua;
+    font-style: italic;
+    font-family: Times;
+}

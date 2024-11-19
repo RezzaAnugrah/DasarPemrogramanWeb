@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style type="text/css">
+            p {
+                font-family: Verdana;
+                font-style: italic;
+                color: blue;
+            }
+
+            #submitButton{
+                background-color: green;
+                color: white;
+            }
+
+            .button{
+                background-color: red;
+                color: white;
+            }
+        </style>
+
+        <title>Inline Style CSS</title>
+    </head>
+
+    <body>
+        <form>
+            <div>
+                <p>Form</p>
+                <hr>
+            </div>
+            
+            <div>
+                Nama : 
+                <input type="text" name="txtNama" maxlength="30" size="30" required>
+            </div>
+
+            <div>
+                <hr>
+                <p>Button</p>
+                <input id="submitButton" type="submit" value="Kirim">
+                <input class="button" type="reset" value="Reset">
+            </div>
+        </form>
+    </body>
+</html>

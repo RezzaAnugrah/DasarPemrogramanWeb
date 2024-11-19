@@ -1,0 +1,70 @@
+
+<head>
+    <link rel="stylesheet" href="202359201014_Nathan1.css">
+    <title>Form Data Karyawan</title>
+</head>
+<body>
+    <form>
+        <div>
+            Form Data Karyawan
+            <hr>
+        </div>
+
+        <div>
+            <label for="txtNIK">NIK :</label>
+            <input type="text" name="txtNIK" maxlength="15" size="20" required>
+        </div>
+
+        <div>
+            <label for="txtNama">Nama :</label>
+            <input type="text" name="txtNama" maxlength="50" size="50" required pattern="\+62?(\d+)+|\(\d+\)" title="Gunakan Format +62 didepan Nomor hp">
+        </div>
+        <div>
+            <label for="txtKTP">No. KTP :</label>
+            <input type="text" name="txtKTP" maxlength="20" size="20" required>
+        </div>
+        <div>
+            <label for="txtEmail">Email :</label>
+            <input type="email" name="txtEmail" maxlength="50" size="50" required>
+        </div>
+
+        <div>
+            <label for="txtRumah">Alamat Rumah :</label>
+            <textarea name="txtRumah" maxlength="250" rows="4" cols="50" required></textarea>
+        </div>
+
+        <div>
+            <label>Jenis Kelamin :</label>
+            <input type="radio" name="jk" value="l"required>Laki-Laki
+            <input type="radio" name="jk" value="p">Perempuan
+        </div>
+
+        <div>
+            <label>Golongan Darah :</label>
+            <input type="radio" name="gd" value="a"required>A
+            <input type="radio" name="gd" value="b">B
+            <input type="radio" name="gd" value="ab">AB
+            <input type="radio" name="gd" value="0">O
+        </div>
+
+        <div>
+            <label>Agama :</label>
+            <select name="agama" required>
+                <option value ="" disabled selected></option>
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="katolik">Katolik</option>
+                <option value="hindhu">Hindhu</option>
+                <option value="buddha">Buddha</option>
+            </select>
+        </div>
+
+        <div>
+            <hr>
+            <input type="reset" value = "Cancel">
+            <input type="submit" value = "Kirim">  
+        </div>
+    </form>
+
+
+</body>
