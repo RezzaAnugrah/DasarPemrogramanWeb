@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navigasi.css">
     <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/style-mahasiswa.css">
     <title>UTPAS</title>
     <link rel="icon" href="img/images.jpeg" type="image/x-icon">
 </head>
@@ -18,7 +19,7 @@
                 <li><a href="index.html">Menu</a>
                     <ul class="submenu">
                         <li><a href="mahasiswa.html">Mahasiswa</a></li>
-                        <li><a href="matakuliah.html">Dosen</a></li>
+                        <li><a href="dosen.html">Dosen</a></li>
                         <li><a href="ruang.html">Ruang</a></li>
                     </ul>
                 </li>
@@ -43,10 +44,38 @@
     
     <!-- Main -->
     <main>
-        <section id="beranda">
-            <h1>Selamat Datang di Website</h1>
-            <h1>Universitas Utpadaka Swastika</h1>
-            <p>Silakan gunakan menu navigasi untuk mengakses fitur yang tersedia</p>
+        <section id="mhs">
+            <form>
+                <div>
+                    Isilah Form Matakuliah di Bawah Ini : 
+                    <hr>
+                </div>
+                
+                <div>
+                    Kode Matakuliah : 
+                    <input type="text" name="txtNama" maxlength="30" size="30"> 
+                </div>
+    
+                <div>
+                    Matakuliah : 
+                    <input type="text" name="txtNama" maxlength="30" size="30">
+                </div>
+    
+                <div>
+                    SKS : 
+                    <select name="sks">
+                        <option selected value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                    </select>
+                </div> 
+    
+                <div>
+                    <hr>
+                    <input type="button" value="Kirim">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
         </section>
     </main>
 
