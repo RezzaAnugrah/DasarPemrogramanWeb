@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navigasi.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/style-mahasiswa.css">
+    <title>UTPAS</title>
+    <link rel="icon" href="img/images.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Menu Navigasi -->
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Menu</a>
+                    <ul class="submenu">
+                        <li><a href="mahasiswa.html">Mahasiswa</a></li>
+                        <li><a href="#visi-misi">Dosen</a></li>
+                        <li><a href="#visi-misi">Ruang</a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="#transaksi">Transaksi</a>
+                    <ul class="submenu">
+                        <li><a href="#profil">Penjadwalan</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#laporan">Laporan</a>
+                    <ul class="submenu">
+                        <li><a href="#profil">Laporan Pengajaran</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#account">My Account</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main -->
+    <main>
+        <section id="mhs">
+            <form>
+                <div>
+                    Form Mahasiswa 
+                    <hr>
+                </div>
+                <div>
+                    <label for="txtNama">Nama Lengkap:</label>
+                    <input type="text" id="txtNama" name="txtNama" maxlength="30" size="30" required>
+                </div>            
+                <div>
+                    <label for="txtNoHP">No HP:</label>
+                    <input type="text" id="txtNoHP" name="txtNoHP" maxlength="15" size="20" required 
+                           pattern="\+62\d{8,15}" title="Gunakan format +62 di depan nomor hp">
+                </div>
+                <div>
+                    <label for="txtEmail">Email:</label>
+                    <input type="email" id="txtEmail" name="txtEmail" maxlength="30" size="30" required>
+                </div> 
+                <div>
+                    <label for="txtAlamatRumah">Alamat Rumah:</label>
+                    <textarea id="txtAlamatRumah" name="txtAlamatRumah" maxlength="150" rows="3" cols="50" required></textarea>
+                </div>
+                 
+                <div>
+                    <label>Olahraga:</label>
+                    <input type="checkbox" name="hobby[]" value="hiking">Hiking
+                    <input type="checkbox" name="hobby[]" value="basket">Basket
+                    <input type="checkbox" name="hobby[]" value="swim">Swimming
+                    <input type="checkbox" name="hobby[]" value="soccer">Soccer
+                    <input type="checkbox" name="hobby[]" value="yoga">Yoga
+                    <input type="checkbox" name="hobby[]" value="run">Running
+                </div>
+                <div>
+                    <label>Jenis Kelamin:</label>
+                    <input type="radio" name="jk" value="l" required>Laki-Laki
+                    <input type="radio" name="jk" value="p">Perempuan
+                </div>
+                <div>
+                    <hr>
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </section>
+    </main>
+
+     <!-- Footer -->
+     <footer id="footer">
+        <p>
+            &copy; 2024 Universitas Utpadaka Swastika
+            <a href="mailto:info@utpas.ac.id">info@utpas.ac.id</a>
+        </p>
+    </footer>
+</body>
+</html>
