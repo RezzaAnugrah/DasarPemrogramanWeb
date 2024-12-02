@@ -19,7 +19,7 @@
                 <li><a href="index.html">Menu</a>
                     <ul class="submenu">
                         <li><a href="mahasiswa.html">Mahasiswa</a></li>
-                        <li><a href="dosen.html">Dosen</a></li>
+                        <li><a href="matakuliah.html">Matakuliah</a></li>
                         <li><a href="ruang.html">Ruang</a></li>
                     </ul>
                 </li>
@@ -40,7 +40,7 @@
                 <li><a href="#logout">Logout</a></li>
             </ul>
         </nav>
-    </header>
+</header>
     
     <!-- Main -->
     <main>
@@ -51,25 +51,29 @@
                     <hr>
                 </div>
                 <div>
-                    <label for="txtNama">Nama Lengkap:</label>
-                    <input type="text" id="txtNama" name="txtNama" maxlength="30" size="30" required>
-                </div>            
+                    <label>NIM</label>
+                    <input type="text" id="txtNama" name="txtNama" maxlength="15" size="30" required>
+                </div>
                 <div>
-                    <label for="txtNoHP">No HP:</label>
+                    <label>Nama Lengkap</label>
+                    <input type="text" id="txtNama" name="txtNama" maxlength="30" size="30" required>
+                </div>             
+                <div>
+                    <label>No HP</label>
                     <input type="text" id="txtNoHP" name="txtNoHP" maxlength="15" size="20" required 
                            pattern="\+62\d{8,15}" title="Gunakan format +62 di depan nomor hp">
                 </div>
                 <div>
-                    <label for="txtEmail">Email:</label>
+                    <label>Email</label>
                     <input type="email" id="txtEmail" name="txtEmail" maxlength="30" size="30" required>
                 </div> 
                 <div>
-                    <label for="txtAlamatRumah">Alamat Rumah:</label>
+                    <label>Alamat Rumah</label>
                     <textarea id="txtAlamatRumah" name="txtAlamatRumah" maxlength="150" rows="3" cols="50" required></textarea>
                 </div>
                  
                 <div>
-                    <label>Olahraga:</label>
+                    <label>Olahraga</label>
                     <input type="checkbox" name="hobby[]" value="hiking">Hiking
                     <input type="checkbox" name="hobby[]" value="basket">Basket
                     <input type="checkbox" name="hobby[]" value="swim">Swimming
@@ -78,7 +82,7 @@
                     <input type="checkbox" name="hobby[]" value="run">Running
                 </div>
                 <div>
-                    <label>Jenis Kelamin:</label>
+                    <label>Jenis Kelamin</label>
                     <input type="radio" name="jk" value="l" required>Laki-Laki
                     <input type="radio" name="jk" value="p">Perempuan
                 </div>
