@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Javscript</h1>
+    <div id="output"></div>
+
+    <script src="js/object.js"></script>
+
+    <script>
+        if (typeof mobil !== "undefined") {
+            document.getElementById("output").innerHTML = `
+                <p>Nama : ${mobil.nama}</p>
+                <p>Model:${mobil.model}</p>
+                <p>Seat : ${mobil.seat}</p>
+                <p>Warna:${mobil.warna}</p>
+            `;
+        } else {
+            document.write("Objek 'mobil' belum terdefinisi.");
+        }
+    </script>
+</body>
+</html>

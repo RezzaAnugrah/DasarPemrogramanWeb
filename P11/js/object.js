@@ -1,7 +1,11 @@
+// Logging
 console.log("### Object");
 
-const mahasiswa = { nama: "Bayu", umur: 25, jurusan: "Teknik Informatika" };
+var mobil  = new Object();
+mobil.nama = "Inova";
+mobil.model = "SVP";
+mobil.seat = "7";
+mobil.warna = "Black";
 
-console.log('Nama' + " : " + mahasiswa.nama);
-console.log('Umur' + " : " + mahasiswa.umur);
-console.log('Jurusan' + " : " + mahasiswa.jurusan);
+// Logging
+console.log(mobil);
