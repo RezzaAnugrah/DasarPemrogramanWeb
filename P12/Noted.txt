@@ -1,0 +1,8 @@
+# Javascript
+- inline
+- internal
+- external
+
+# Javascript
+- untuk client side
+- untuk server side
