@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>inline-js</title>
+    </head>
+    <body onload="alert('Hello, ini adalah program JS inline!') ">
+        <p>Javascript Internal Style</p>
+
+        <br>
+        <button onclick="alert('Hello, Javascript by button!')">Klik Button !!</button>
+        <a href="#" onclick="alert('Hello, Javascript by href link!')">Klik Link !!</a>
+
+        <br>
+        <p id="demo">Javascript can change HTML content</p>
+        <button type="button"
+                onclick="document.getElementById('demo').innerHTML ='Hello Javascript';"> Klik, Update context demo!
+        </button>
+
+        <br>
+        <p id="demo2">Javascript can change css style</p>
+        <button type="button"
+                onclick="document.getElementById('demo2').style.fontSize='35px'; 
+                document.getElementById('demo2').style.color='red';"> Klik, Update css demo!
+        </button>
+    </body>
+</html>
