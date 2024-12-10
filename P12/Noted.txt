@@ -1,8 +1,12 @@
 # Javascript
+- untuk interaktif halaman web
+- untuk kebutuhan backend
+
+# Penulisan Javascript
 - inline
 - internal
 - external
 
-# Javascript
-- untuk client side
-- untuk server side
+# Javascript Need
+- untuk ktif halaman web - client side (front end)
+- untuk kebutuhan backend - server side (back end)
